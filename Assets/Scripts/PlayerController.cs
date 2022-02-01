@@ -3,7 +3,7 @@
  * Last Edited: 12/8/2021
  * Description: This should be added to the player in a simple 2D platformer 
  * *************************************/
-
+//Dash settings added by Gabby
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -51,6 +51,11 @@ public class PlayerController : MonoBehaviour
     public float ladderDist;
     private float moveInputV;
     public float climbSpeed;
+
+    //Dash things
+    public float maxdashtime = 4;
+    public float isdashing;
+    public float dashcooldown = 4;
 
     //Respawn info
     [HideInInspector]
@@ -194,7 +199,14 @@ public class PlayerController : MonoBehaviour
             Flip();
         }
 
+        //Player dash hold down shift
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+
+        }
     }
+
+    
     //flip the player so sprite faces the other way
     void Flip()
     {
