@@ -235,6 +235,13 @@ public class PlayerController : MonoBehaviour
                 StartCoroutine(OnDeath());
 
             }
+            if (controlsOn)
+            {
+                if (collision.gameObject.CompareTag("Barrier"))
+                {
+                    StartCoroutine(OnDeath());
+                }
+            }
         }
     }
 
