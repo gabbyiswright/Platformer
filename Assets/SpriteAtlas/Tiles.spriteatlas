@@ -44,7 +44,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 015970736cfa36e4c88054972bb3d2ba, type: 3}
-    totalSpriteSurfaceArea: 72336
+    totalSpriteSurfaceArea: 77456
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -65,6 +65,7 @@ SpriteAtlas:
   - {fileID: -9120630089538121617, guid: 991e88112abe3644c9fd9bcc43fedfba, type: 3}
   - {fileID: 5218580261869590449, guid: 991e88112abe3644c9fd9bcc43fedfba, type: 3}
   - {fileID: -1261548220001104836, guid: 991e88112abe3644c9fd9bcc43fedfba, type: 3}
+  - {fileID: 21300000, guid: e1fa50c4b82f2e1448b02683e735749f, type: 3}
   - {fileID: 4413142109597815103, guid: 29173af6ad4f8f34cae2f2ad028ec303, type: 3}
   - {fileID: -3674992999376901249, guid: 29173af6ad4f8f34cae2f2ad028ec303, type: 3}
   - {fileID: 4227826887867029099, guid: 29173af6ad4f8f34cae2f2ad028ec303, type: 3}
@@ -280,6 +281,10 @@ SpriteAtlas:
   - {fileID: -2209401061123471698, guid: d37e19ad10172ab4fb53c4f7e74a4e55, type: 3}
   - {fileID: 1018328791618719094, guid: d37e19ad10172ab4fb53c4f7e74a4e55, type: 3}
   - {fileID: 6731733094262721628, guid: d37e19ad10172ab4fb53c4f7e74a4e55, type: 3}
+  - {fileID: 5320897166697347049, guid: 4bbebbeea7e89e347ac9a5496809f470, type: 3}
+  - {fileID: 3865882035770482241, guid: 4bbebbeea7e89e347ac9a5496809f470, type: 3}
+  - {fileID: 3206793211867907110, guid: 4bbebbeea7e89e347ac9a5496809f470, type: 3}
+  - {fileID: -2456691542158089663, guid: 4bbebbeea7e89e347ac9a5496809f470, type: 3}
   - {fileID: 21300000, guid: 9448701fdbdfbdd4bb6d7a8e22c982cb, type: 3}
   m_PackedSpriteNamesToIndex:
   - Dark VFX 2 (48x64)_14
@@ -297,6 +302,7 @@ SpriteAtlas:
   - Dark VFX 2 (48x64)_6
   - Dark VFX 2 (48x64)_5
   - Dark VFX 2 (48x64)_4
+  - SlimeBall
   - FlyingSlimeAttack_8
   - FlyingSlimeAttack_7
   - FlyingSlimeAttack_6
@@ -512,6 +518,10 @@ SpriteAtlas:
   - tileset_96
   - tileset_95
   - tileset_94
+  - ShootingEnemy_1
+  - ShootingEnemy_0
+  - ShootingEnemy_3
+  - ShootingEnemy_2
   - Square
   m_RenderDataMap: {}
   m_Tag: Tiles
