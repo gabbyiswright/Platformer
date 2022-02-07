@@ -12,8 +12,10 @@ public class BoostPad : MonoBehaviour
     // Player is declared by the operator
     [Tooltip("Define the player here")]
     public Rigidbody2D playerRb;
-    [Tooltip("This variable will adjust the velocity that the pad will apply to the player.")]
+    [Tooltip("This variable will adjust the velocity that the pad will apply to the player. Positive values move the player up/right, negative values move the player down/left.")]
     public float boostforce;
+    [Tooltip("Does this boost pad launch the player horizontally?")]
+    public bool IsHorizontal = false;
     
     // Start is called before the first frame update
     void Start()
@@ -22,14 +24,16 @@ public class BoostPad : MonoBehaviour
         playerRb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
-    //void Update()
-    //{
-        
-    //}
-
-    private void OnCollisionStay2D(Collision2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        playerRb.AddForce(new Vector2(playerRb.velocity.x, boostforce));
+        // Determines if the player is going to be moved vertically or horizontally.
+        if (IsHorizontal == false)
+        {
+            playerRb.AddForce(new Vector2(playerRb.velocity.x, boostforce + playerRb.velocity.y));
+        }
+        else if (IsHorizontal == true)
+        {
+            playerRb.AddForce(new Vector2(boostforce + playerRb.velocity.x, playerRb.velocity.y));
+        }
     }
 }
