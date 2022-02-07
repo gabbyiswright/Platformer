@@ -8,7 +8,7 @@ using UnityEngine;
 //Turns an object into a "boost pad", which launches the player at a specified velocity and direction.
 public class BoostPad : MonoBehaviour
 {
-    private Collision2D myCollision;
+    private Collider2D myCollision;
     // Player is declared by the operator
     [Tooltip("Define the player here")]
     public Rigidbody2D playerRb;
@@ -20,11 +20,10 @@ public class BoostPad : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        myCollision = GetComponent<Collision2D>();
-        playerRb = GetComponent<Rigidbody2D>();
+        myCollision = GetComponent<Collider2D>();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collider)
     {
         // Determines if the player is going to be moved vertically or horizontally.
         if (IsHorizontal == false)
