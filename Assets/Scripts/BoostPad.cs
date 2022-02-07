@@ -24,7 +24,7 @@ public class BoostPad : MonoBehaviour
         playerRb = GetComponent<Rigidbody2D>();
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         // Determines if the player is going to be moved vertically or horizontally.
         if (IsHorizontal == false)
