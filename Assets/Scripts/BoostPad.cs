@@ -23,10 +23,13 @@ public class BoostPad : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
+    //void Update()
+    //{
         
+    //}
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        playerRb.AddForce(new Vector2(playerRb.velocity.x, boostforce));
     }
-
-
 }
