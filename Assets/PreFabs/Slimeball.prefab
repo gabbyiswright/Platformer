@@ -182,7 +182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f346e4f5958263642b06e1e7e04f7aa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 650
+  speed: 800
   movingRight: 0
   frontDetection: {fileID: 596942300273631618}
   backDetection: {fileID: 596942298504305663}
