@@ -27,7 +27,7 @@ public class PhysKiller : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("DeathBarrier"))
+        if (collision.gameObject.CompareTag("Barrier"))
         {
             Kill();
         }
