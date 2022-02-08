@@ -44,12 +44,13 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 015970736cfa36e4c88054972bb3d2ba, type: 3}
-    totalSpriteSurfaceArea: 2231137
+    totalSpriteSurfaceArea: 2281889
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300000, guid: 00fae660c7ee8bf4babb2d41b9390245, type: 3}
   - {fileID: 21300000, guid: b33371d01af752b4f84aaf6a0c21b03b, type: 3}
   - {fileID: -669512247467982665, guid: 991e88112abe3644c9fd9bcc43fedfba, type: 3}
   - {fileID: -4952163481679523252, guid: 991e88112abe3644c9fd9bcc43fedfba, type: 3}
@@ -67,6 +68,7 @@ SpriteAtlas:
   - {fileID: 5218580261869590449, guid: 991e88112abe3644c9fd9bcc43fedfba, type: 3}
   - {fileID: -1261548220001104836, guid: 991e88112abe3644c9fd9bcc43fedfba, type: 3}
   - {fileID: 21300000, guid: d5315fa1cf640604ca54a524851d85e2, type: 3}
+  - {fileID: 21300000, guid: 8b764bb22146389488ba3f13afdc336d, type: 3}
   - {fileID: 4413142109597815103, guid: 29173af6ad4f8f34cae2f2ad028ec303, type: 3}
   - {fileID: -3674992999376901249, guid: 29173af6ad4f8f34cae2f2ad028ec303, type: 3}
   - {fileID: 4227826887867029099, guid: 29173af6ad4f8f34cae2f2ad028ec303, type: 3}
@@ -175,7 +177,16 @@ SpriteAtlas:
   - {fileID: -5113850848988359095, guid: ff63b857b8cd8b748b880a8033d922e9, type: 3}
   - {fileID: -960318691587876435, guid: ff63b857b8cd8b748b880a8033d922e9, type: 3}
   - {fileID: 4725964358076801325, guid: ff63b857b8cd8b748b880a8033d922e9, type: 3}
+  - {fileID: 21300000, guid: eead54488a4dc9f43a26e194d57d38a5, type: 3}
   - {fileID: 21300000, guid: 2f8fe968911b3134d92525b9cc6fd496, type: 3}
+  - {fileID: 1661622616141442780, guid: 928cdea81c360fd46b481a41cbd4a07a, type: 3}
+  - {fileID: 8664960684360513993, guid: 928cdea81c360fd46b481a41cbd4a07a, type: 3}
+  - {fileID: 4534564586125293996, guid: 928cdea81c360fd46b481a41cbd4a07a, type: 3}
+  - {fileID: -6661509703696896940, guid: 928cdea81c360fd46b481a41cbd4a07a, type: 3}
+  - {fileID: -1784063087902815463, guid: 928cdea81c360fd46b481a41cbd4a07a, type: 3}
+  - {fileID: -8366243464746118688, guid: 928cdea81c360fd46b481a41cbd4a07a, type: 3}
+  - {fileID: 5376460817703797615, guid: 928cdea81c360fd46b481a41cbd4a07a, type: 3}
+  - {fileID: 21300000, guid: 6f9edbc89facdb24eb03df4da5f84622, type: 3}
   - {fileID: 7562716900497062, guid: f99a3879764308a4d92d87d841829522, type: 3}
   - {fileID: -7154765599751142846, guid: f99a3879764308a4d92d87d841829522, type: 3}
   - {fileID: 2984065513281883999, guid: f99a3879764308a4d92d87d841829522, type: 3}
@@ -271,6 +282,7 @@ SpriteAtlas:
   - {fileID: -5241486731584646207, guid: f99a3879764308a4d92d87d841829522, type: 3}
   - {fileID: 21300000, guid: 8af9e5eb00ef8334eba1716fe965bbf5, type: 3}
   - {fileID: 21300000, guid: 7bde370c007a5af4ab370c4a9e089455, type: 3}
+  - {fileID: 21300000, guid: 1d7b5f2cf8471e34994b0b84efa91281, type: 3}
   - {fileID: 1671283345461455480, guid: 950f927dbc9d7d146bfeab77e560f475, type: 3}
   - {fileID: -3638366375080524030, guid: 950f927dbc9d7d146bfeab77e560f475, type: 3}
   - {fileID: 3774374558072554424, guid: 950f927dbc9d7d146bfeab77e560f475, type: 3}
@@ -525,6 +537,7 @@ SpriteAtlas:
   - {fileID: -2456691542158089663, guid: 4bbebbeea7e89e347ac9a5496809f470, type: 3}
   - {fileID: 21300000, guid: 9448701fdbdfbdd4bb6d7a8e22c982cb, type: 3}
   m_PackedSpriteNamesToIndex:
+  - portal4_spritesheet
   - background_0
   - Dark VFX 2 (48x64)_14
   - Dark VFX 2 (48x64)_12
@@ -542,6 +555,7 @@ SpriteAtlas:
   - Dark VFX 2 (48x64)_5
   - Dark VFX 2 (48x64)_4
   - spike
+  - portal2_spritesheet
   - FlyingSlimeAttack_8
   - FlyingSlimeAttack_7
   - FlyingSlimeAttack_6
@@ -650,7 +664,16 @@ SpriteAtlas:
   - platform_0
   - platform_9
   - platform_8
+  - portal6_spritesheet
   - background_1
+  - portal3_spritesheet_0
+  - portal3_spritesheet_1
+  - portal3_spritesheet_2
+  - portal3_spritesheet_3
+  - portal3_spritesheet_4
+  - portal3_spritesheet_5
+  - portal3_spritesheet_6
+  - portal1_spritesheet
   - cavesofgallet_tiles_0
   - cavesofgallet_tiles_1
   - cavesofgallet_tiles_2
@@ -746,6 +769,7 @@ SpriteAtlas:
   - cavesofgallet_tiles_9
   - background_2
   - example
+  - portal5_spritesheet
   - rotating_coin_0
   - rotating_coin_1
   - rotating_coin_2
