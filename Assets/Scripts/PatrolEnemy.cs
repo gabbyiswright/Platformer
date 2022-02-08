@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PatrolEnemy : MonoBehaviour
 {
+    public LayerMask whattodetect;
     public float speed;
     public bool movingRight = false;
 
@@ -38,10 +39,10 @@ public class PatrolEnemy : MonoBehaviour
 
         myRB.AddForce(moveDir * speed * Time.deltaTime);
 
-        RaycastHit2D groundInfo = Physics2D.Raycast(frontDetection.position, Vector2.down, groundRayDist);
-        RaycastHit2D backGroundInfo = Physics2D.Raycast(backDetection.position, Vector2.down, groundRayDist);
-        RaycastHit2D wallInfo = Physics2D.Raycast(frontDetection.position, moveDir, wallRayDist);
-        RaycastHit2D backWallInfo = Physics2D.Raycast(backDetection.position, -moveDir, wallRayDist);
+        RaycastHit2D groundInfo = Physics2D.Raycast(frontDetection.position, Vector2.down, groundRayDist, whattodetect);
+        RaycastHit2D backGroundInfo = Physics2D.Raycast(backDetection.position, Vector2.down, groundRayDist, whattodetect);
+        RaycastHit2D wallInfo = Physics2D.Raycast(frontDetection.position, moveDir, wallRayDist, whattodetect);
+        RaycastHit2D backWallInfo = Physics2D.Raycast(backDetection.position, -moveDir, wallRayDist, whattodetect);
         //make sure that it can keep going a direction or switch, or just stop turning if trapped on both sides
         //if there wasn't a back check it would spaz if pushed into a strange place
         if ((groundInfo.collider == false || wallInfo.collider != false) && (backGroundInfo.collider == true && backWallInfo.collider != true))

@@ -6,11 +6,14 @@ TagManager:
   tags:
   - Enemy
   - Barrier
+  - DeathBarrier
+  - PhysicsObject
+  - Wind
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Wind
   - Water
   - UI
   - Player

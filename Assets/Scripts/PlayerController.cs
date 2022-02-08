@@ -275,4 +275,8 @@ public class PlayerController : MonoBehaviour
         //reset player position
         transform.position = RespawnPoint; 
     }
+
+   
+
 }
+
