@@ -16,7 +16,7 @@ public class ShootingEnemy : MonoBehaviour
     public float wallRayDist = 0.2f;
 
     [Tooltip("Drag the Projectile prefab here to use")]
-    public GameObject Laser;
+    public GameObject projectile;
 
     public Vector3 Offset1 = new Vector3(0, 0, 0);
     public Vector3 Offset2 = new Vector3(0, 0, 0);
@@ -64,7 +64,7 @@ public class ShootingEnemy : MonoBehaviour
         {
             //fire objects
             Fire(Offset1);
-            Fire(Offset2);
+            //Fire(Offset2);
             Timer = 0;
         }
 
@@ -73,8 +73,15 @@ public class ShootingEnemy : MonoBehaviour
     void Fire(Vector3 offset)
     {
         Vector3 spawnpos = transform.position + transform.rotation * offset;
-        GameObject las1 = Instantiate(Laser, spawnpos, transform.rotation);
+        GameObject slime1 = Instantiate(projectile, spawnpos, transform.rotation);
 
-        las1.GetComponent<Rigidbody2D>().velocity = transform.up * LaserSpeed;
+        if (movingRight)
+        { 
+            slime1.GetComponent<PatrolEnemy>().movingRight = true;
+        }
+        else 
+        {
+            slime1.GetComponent<PatrolEnemy>().movingRight = false;
+        }
     }
 }
