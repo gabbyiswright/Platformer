@@ -19,12 +19,17 @@ public class PhysKiller : MonoBehaviour
         
     }
 
+    public void Kill()
+    {
+        transform.position = RespawnPoint;
+        myRb.velocity = Vector2.zero;
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("DeathBarrier"))
         {
-            transform.position = RespawnPoint;
-            myRb.velocity = Vector2.zero;
+            Kill();
         }
     }
 }
