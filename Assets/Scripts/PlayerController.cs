@@ -245,8 +245,16 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-
-
+    private void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (controlsOn)
+        {
+            if (collider.gameObject.CompareTag("Barrier"))
+            {
+                StartCoroutine(OnDeath());
+            }
+        }
+    }
 
     private IEnumerator OnDeath()
     {
@@ -275,4 +283,8 @@ public class PlayerController : MonoBehaviour
         //reset player position
         transform.position = RespawnPoint; 
     }
+
+   
+
 }
+
