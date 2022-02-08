@@ -26,13 +26,16 @@ public class BoostPad : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collider)
     {
         // Determines if the player is going to be moved vertically or horizontally.
-        if (IsHorizontal == false)
+        if (collider.gameObject.CompareTag("Player"))
         {
-            playerRb.AddForce(new Vector2(playerRb.velocity.x, boostforce + playerRb.velocity.y));
-        }
-        else if (IsHorizontal == true)
-        {
-            playerRb.AddForce(new Vector2(boostforce + playerRb.velocity.x, playerRb.velocity.y));
-        }
+            if (IsHorizontal == false)
+            {
+                playerRb.AddForce(new Vector2(playerRb.velocity.x, boostforce + playerRb.velocity.y));
+            }
+            else if (IsHorizontal == true)
+            {
+                playerRb.AddForce(new Vector2(boostforce + playerRb.velocity.x, playerRb.velocity.y));
+            }
+        } 
     }
 }
