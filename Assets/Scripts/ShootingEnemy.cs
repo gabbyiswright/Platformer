@@ -15,6 +15,15 @@ public class ShootingEnemy : MonoBehaviour
     public float groundRayDist = 2f;
     public float wallRayDist = 0.2f;
 
+    [Tooltip("Drag the Projectile prefab here to use")]
+    public GameObject projectile;
+
+    public Vector3 Offset1 = new Vector3(0, 0, 0);
+    public Vector3 Offset2 = new Vector3(0, 0, 0);
+    public float Cooldown = 0.2f;
+    float Timer = 0;
+    public float LaserSpeed = 15;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -50,6 +59,29 @@ public class ShootingEnemy : MonoBehaviour
             transform.eulerAngles += new Vector3(0, 180, 0);
         }
 
+        Timer += Time.deltaTime;
+        if (Timer >= Cooldown)
+        {
+            //fire objects
+            Fire(Offset1);
+            //Fire(Offset2);
+            Timer = 0;
+        }
 
+    }
+
+    void Fire(Vector3 offset)
+    {
+        Vector3 spawnpos = transform.position + transform.rotation * offset;
+        GameObject slime1 = Instantiate(projectile, spawnpos, transform.rotation);
+
+        if (movingRight)
+        { 
+            slime1.GetComponent<PatrolEnemy>().movingRight = true;
+        }
+        else 
+        {
+            slime1.GetComponent<PatrolEnemy>().movingRight = false;
+        }
     }
 }
