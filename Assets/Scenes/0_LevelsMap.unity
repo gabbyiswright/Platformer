@@ -233,7 +233,7 @@ PrefabInstance:
     - target: {fileID: 7806682004418710100, guid: 54b01999deac29045ad5f8cb6a2b3a79,
         type: 3}
       propertyPath: LevelToLoad
-      value: 
+      value: 5_VadimLevel
       objectReference: {fileID: 0}
     - target: {fileID: 7806682004418710101, guid: 54b01999deac29045ad5f8cb6a2b3a79,
         type: 3}
@@ -358,7 +358,7 @@ PrefabInstance:
     - target: {fileID: 7806682004418710122, guid: 54b01999deac29045ad5f8cb6a2b3a79,
         type: 3}
       propertyPath: m_Name
-      value: VadinsLevel
+      value: VadimsLevel
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54b01999deac29045ad5f8cb6a2b3a79, type: 3}
@@ -855,7 +855,7 @@ PrefabInstance:
     - target: {fileID: 7806682004418710100, guid: 54b01999deac29045ad5f8cb6a2b3a79,
         type: 3}
       propertyPath: LevelToLoad
-      value: 
+      value: GrahamScene
       objectReference: {fileID: 0}
     - target: {fileID: 7806682004418710101, guid: 54b01999deac29045ad5f8cb6a2b3a79,
         type: 3}
@@ -980,7 +980,7 @@ PrefabInstance:
     - target: {fileID: 7806682004418710122, guid: 54b01999deac29045ad5f8cb6a2b3a79,
         type: 3}
       propertyPath: m_Name
-      value: GrahmsLevel
+      value: GrahamsLevel
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54b01999deac29045ad5f8cb6a2b3a79, type: 3}
