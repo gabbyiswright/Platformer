@@ -3,20 +3,29 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Barrier
+  - DeathBarrier
+  - PhysicsObject
+<<<<<<< Updated upstream
+  - Wind
+=======
+  - Teleporter
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Wind
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - Ground
+  - OneWayGround
+  - Ladder
+  - slimeBall
   - 
   - 
   - 
