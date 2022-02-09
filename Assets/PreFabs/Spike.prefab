@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 4251481059633089635}
   - component: {fileID: 4251481059633089644}
   - component: {fileID: 4251481059633089645}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Spike
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -250,7 +250,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4251481060062883774}
   - component: {fileID: 4251481060062883769}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Kill Zone
   m_TagString: Barrier
   m_Icon: {fileID: 0}

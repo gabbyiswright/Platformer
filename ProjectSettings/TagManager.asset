@@ -9,6 +9,7 @@ TagManager:
   - DeathBarrier
   - PhysicsObject
   - Wind
+  - Teleporter
   layers:
   - Default
   - TransparentFX

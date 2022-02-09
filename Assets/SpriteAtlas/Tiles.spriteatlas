@@ -44,7 +44,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 015970736cfa36e4c88054972bb3d2ba, type: 3}
-    totalSpriteSurfaceArea: 2281889
+    totalSpriteSurfaceArea: 2282145
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -69,6 +69,7 @@ SpriteAtlas:
   - {fileID: -1261548220001104836, guid: 991e88112abe3644c9fd9bcc43fedfba, type: 3}
   - {fileID: 21300000, guid: d5315fa1cf640604ca54a524851d85e2, type: 3}
   - {fileID: 21300000, guid: 8b764bb22146389488ba3f13afdc336d, type: 3}
+  - {fileID: 21300000, guid: 7899bb4491e1ec34882778c14ca358b7, type: 3}
   - {fileID: 4413142109597815103, guid: 29173af6ad4f8f34cae2f2ad028ec303, type: 3}
   - {fileID: -3674992999376901249, guid: 29173af6ad4f8f34cae2f2ad028ec303, type: 3}
   - {fileID: 4227826887867029099, guid: 29173af6ad4f8f34cae2f2ad028ec303, type: 3}
@@ -556,6 +557,7 @@ SpriteAtlas:
   - Dark VFX 2 (48x64)_4
   - spike
   - portal2_spritesheet
+  - Freezeball
   - FlyingSlimeAttack_8
   - FlyingSlimeAttack_7
   - FlyingSlimeAttack_6
