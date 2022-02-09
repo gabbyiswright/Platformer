@@ -8,7 +8,11 @@ TagManager:
   - Barrier
   - DeathBarrier
   - PhysicsObject
+<<<<<<< Updated upstream
   - Wind
+=======
+  - Teleporter
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
