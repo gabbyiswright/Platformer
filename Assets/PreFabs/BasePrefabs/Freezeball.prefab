@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 7981973329101102220}
   - component: {fileID: -4110339326730400662}
   - component: {fileID: 538028953595290831}
+  - component: {fileID: -8309258616084887885}
+  - component: {fileID: 5215865822129025581}
   m_Layer: 0
   m_Name: Freezeball
   m_TagString: Untagged
@@ -131,3 +133,28 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.46307373, y: 0.46307504}
   m_EdgeRadius: 0
+--- !u!114 &-8309258616084887885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7981973329101102221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 439009831bdb7524ea7a8d107687acd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5215865822129025581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7981973329101102221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6598bdece3cb09743a3a8809bb6f498f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DeathTime: 8
