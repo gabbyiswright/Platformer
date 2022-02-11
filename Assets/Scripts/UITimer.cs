@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
-public class UITimer : Combat
+public class UITimer : MonoBehaviour
 {
-	public Text TimerText;
+	TMP_Text TimerText;
 	private bool playing;
 	private float Timer;
 	public static bool IsAlive;
@@ -13,7 +14,7 @@ public class UITimer : Combat
 	void Start()
 	{
 		IsAlive = true;
-        GetComponent<Text>().text = Timer.ToString();
+        GetComponent<TMP_Text>().text = Timer.ToString();
 		if (TimerText != null)
 		{
 			playing = true;

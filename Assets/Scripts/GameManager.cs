@@ -5,6 +5,8 @@ using UnityEngine.Events;
 
 public class GameManager : MonoBehaviour
 {
+    // Float value for speedrun timer
+    public static float FinalTime;
     //allow this component to be grabbed from anywhere and make sure only one exists
     public static GameManager Instance;
 
