@@ -27,7 +27,7 @@ public class Wind : MonoBehaviour
         if (collider.gameObject.CompareTag("Player"))
         {
 
-            PlayerRB.AddForce(new Vector2(-12f, 0f));
+            PlayerRB.AddForce(new Vector2(-10f, 0f));
         }
 
     }

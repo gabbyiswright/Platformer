@@ -15,19 +15,19 @@ EditorBuildSettings:
     path: Assets/Scenes/1_MichaelsLevel.unity
     guid: 80d40d207f3751c42b49436f8b317d2b
   - enabled: 1
-    path: Assets/Scenes/5_VadimsLevel.unity
-    guid: e8886fd4e694b3340bef525263f775ff
+    path: Assets/Scenes/2_GabbysLevel.unity
+    guid: ee4d1f469bead4b4f8cd9db0687a47db
   - enabled: 1
     path: Assets/Scenes/3_BrandonsLevel.unity
     guid: ffc92dd9302bcd8488fda972fc9d304e
   - enabled: 1
-    path: Assets/Scenes/2_GabbysLevel.unity
-    guid: ee4d1f469bead4b4f8cd9db0687a47db
+    path: Assets/Scenes/5_VadimLevel.unity
+    guid: e8886fd4e694b3340bef525263f775ff
   - enabled: 1
     path: Assets/Scenes/4_LukesLevel.unity
     guid: a21df3c82553baf409cd6a35f796dc22
   - enabled: 1
-    path: Assets/Scenes/6_GrahamsLevel.unity
+    path: Assets/Scenes/GrahamScene.unity
     guid: 520f348024a97e245b30f9a949b53ea4
   - enabled: 1
     path: Assets/Scenes/9_EndScene.unity
