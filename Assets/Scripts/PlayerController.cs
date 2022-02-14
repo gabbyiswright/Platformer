@@ -133,6 +133,11 @@ public class PlayerController : MonoBehaviour
                 myRb.velocity = (Vector2.up * jumpForce) + new Vector2(myRb.velocity.x, 0);
                 jumpPressed = true;
             }
+
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                StartCoroutine(OnDeath());
+            }
         }
     }
     // FixedUpdate is called once per physics frame
@@ -242,6 +247,7 @@ public class PlayerController : MonoBehaviour
                     StartCoroutine(OnDeath());
                 }
             }
+           
         }
     }
 
