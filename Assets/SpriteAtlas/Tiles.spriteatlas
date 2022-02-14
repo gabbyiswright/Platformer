@@ -44,7 +44,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 015970736cfa36e4c88054972bb3d2ba, type: 3}
-    totalSpriteSurfaceArea: 2282145
+    totalSpriteSurfaceArea: 2284497
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -393,6 +393,18 @@ SpriteAtlas:
   - {fileID: -2209401061123471698, guid: d37e19ad10172ab4fb53c4f7e74a4e55, type: 3}
   - {fileID: 1018328791618719094, guid: d37e19ad10172ab4fb53c4f7e74a4e55, type: 3}
   - {fileID: 6731733094262721628, guid: d37e19ad10172ab4fb53c4f7e74a4e55, type: 3}
+  - {fileID: 1456175014528945485, guid: 42ff9bed3e8c0cb4396005dd15a8eade, type: 3}
+  - {fileID: 4423361776044775499, guid: 42ff9bed3e8c0cb4396005dd15a8eade, type: 3}
+  - {fileID: 2937630501515009759, guid: 42ff9bed3e8c0cb4396005dd15a8eade, type: 3}
+  - {fileID: -5560534576454327483, guid: 42ff9bed3e8c0cb4396005dd15a8eade, type: 3}
+  - {fileID: 3766788265499622192, guid: 42ff9bed3e8c0cb4396005dd15a8eade, type: 3}
+  - {fileID: 6300381773523239722, guid: 42ff9bed3e8c0cb4396005dd15a8eade, type: 3}
+  - {fileID: -728633025593255211, guid: 42ff9bed3e8c0cb4396005dd15a8eade, type: 3}
+  - {fileID: 5701589956387410456, guid: 42ff9bed3e8c0cb4396005dd15a8eade, type: 3}
+  - {fileID: 2951395561847271814, guid: 42ff9bed3e8c0cb4396005dd15a8eade, type: 3}
+  - {fileID: 3963503034257146480, guid: 42ff9bed3e8c0cb4396005dd15a8eade, type: 3}
+  - {fileID: 401279703829214509, guid: 42ff9bed3e8c0cb4396005dd15a8eade, type: 3}
+  - {fileID: -2090953560018412637, guid: 42ff9bed3e8c0cb4396005dd15a8eade, type: 3}
   - {fileID: 8621815960616643281, guid: 648c901e7a4db14479d0011373a66fce, type: 3}
   - {fileID: -7131273655155896711, guid: 648c901e7a4db14479d0011373a66fce, type: 3}
   - {fileID: -6831599063569703212, guid: 648c901e7a4db14479d0011373a66fce, type: 3}
@@ -881,6 +893,18 @@ SpriteAtlas:
   - tileset_96
   - tileset_95
   - tileset_94
+  - Finish THingy_6
+  - Finish THingy_7
+  - Finish THingy_4
+  - Finish THingy_5
+  - Finish THingy_2
+  - Finish THingy_3
+  - Finish THingy_0
+  - Finish THingy_1
+  - Finish THingy_8
+  - Finish THingy_9
+  - Finish THingy_11
+  - Finish THingy_10
   - tileset_39
   - tileset_38
   - tileset_48
