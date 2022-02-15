@@ -44,7 +44,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 015970736cfa36e4c88054972bb3d2ba, type: 3}
-    totalSpriteSurfaceArea: 2284497
+    totalSpriteSurfaceArea: 3573641
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -70,6 +70,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: d5315fa1cf640604ca54a524851d85e2, type: 3}
   - {fileID: 21300000, guid: 8b764bb22146389488ba3f13afdc336d, type: 3}
   - {fileID: 21300000, guid: 7899bb4491e1ec34882778c14ca358b7, type: 3}
+  - {fileID: 21300000, guid: 35b985d43283448428467c020095f9b7, type: 3}
   - {fileID: 4413142109597815103, guid: 29173af6ad4f8f34cae2f2ad028ec303, type: 3}
   - {fileID: -3674992999376901249, guid: 29173af6ad4f8f34cae2f2ad028ec303, type: 3}
   - {fileID: 4227826887867029099, guid: 29173af6ad4f8f34cae2f2ad028ec303, type: 3}
@@ -281,6 +282,7 @@ SpriteAtlas:
   - {fileID: -7336076203705889676, guid: f99a3879764308a4d92d87d841829522, type: 3}
   - {fileID: -4344611882063969491, guid: f99a3879764308a4d92d87d841829522, type: 3}
   - {fileID: -5241486731584646207, guid: f99a3879764308a4d92d87d841829522, type: 3}
+  - {fileID: 21300000, guid: 288f9f2a133d76541ac5f94ce1faac21, type: 3}
   - {fileID: 21300000, guid: 8af9e5eb00ef8334eba1716fe965bbf5, type: 3}
   - {fileID: 21300000, guid: 7bde370c007a5af4ab370c4a9e089455, type: 3}
   - {fileID: 21300000, guid: 1d7b5f2cf8471e34994b0b84efa91281, type: 3}
@@ -570,6 +572,7 @@ SpriteAtlas:
   - spike
   - portal2_spritesheet
   - Freezeball
+  - New Piskel-1.png (32)
   - FlyingSlimeAttack_8
   - FlyingSlimeAttack_7
   - FlyingSlimeAttack_6
@@ -781,6 +784,7 @@ SpriteAtlas:
   - cavesofgallet_tiles_72
   - cavesofgallet_tiles_8
   - cavesofgallet_tiles_9
+  - dwayne-johnson
   - background_2
   - example
   - portal5_spritesheet

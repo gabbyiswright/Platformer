@@ -103,7 +103,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 2, y: 2}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af25a1676b1f0e48919525af8965ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelToLoad: 3_BrandonsLevel
+  LevelToLoad: GrahamScene
 --- !u!95 &4054911649207396226
 Animator:
   serializedVersion: 3
